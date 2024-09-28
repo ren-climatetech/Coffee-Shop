@@ -1,0 +1,176 @@
+.header {
+  padding: 1.25rem;
+  background-color: #FFF0ED;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header__content {
+  vertical-align: middle;
+}
+
+.header__content--left {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.nav__item {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav__logo {
+  width: 3.125rem;
+  padding: 1.25rem;
+  margin: auto;
+}
+
+.nav__logo--title {
+  text-decoration: none;
+  color: #393939;
+}
+
+.nav__item--style a {
+  list-style-type: none;
+  text-decoration: none;
+  color: inherit;
+  padding: 1.25rem;
+}
+.nav__item--style a:hover {
+  color: #5BACC3;
+}
+
+.mainheader {
+  height: 43.75rem;
+  background-image: url("../assets/images/coffee-circle.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+
+.button__container {
+  position: relative;
+}
+
+.header__menu {
+  color: white;
+  font-size: 3.75rem;
+  text-transform: uppercase;
+  margin: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  box-sizing: border-box;
+  border: 0.3125rem solid #5BACC3;
+  width: 18.75rem;
+  height: 12.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.button__background {
+  box-sizing: border-box;
+  width: 18.75rem;
+  height: 12.5rem;
+  background-color: #393939;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+.mainheader__text {
+  background-color: #393939;
+  color: #FFF;
+  text-align: center;
+  height: 100%;
+  position: relative;
+  top: 0.3125rem;
+  left: 0.3125rem;
+}
+
+.menu__background {
+  width: 100%;
+  background-color: #393939;
+  margin: 0%;
+  padding: 1.25rem;
+}
+
+.boxed-list a {
+  color: #FFF;
+  text-decoration: none;
+  font-size: 1.313rem;
+}
+
+.pink-background {
+  background-color: #FFF0ED;
+  color: #393939;
+  padding: 1.25rem;
+}
+
+.grey-background {
+  background-color: #F7F7F7;
+  color: #393939;
+  padding-bottom: 1.25rem;
+}
+
+.description {
+  color: #393939;
+  font-size: 1.125rem;
+  font-weight: 400;
+  font-style: italic;
+  text-align: center;
+  width: 33%;
+  list-style-type: none;
+  margin: auto;
+}
+
+.price {
+  color: #5BACC3;
+  text-align: center;
+  list-style-type: none;
+  padding-bottom: 1.25rem;
+}
+
+.header-2 {
+  font-size: 3.75rem;
+  font-weight: 300;
+  text-align: center;
+  padding-top: 1.25rem;
+}
+
+.header-3 {
+  font-size: 2.063rem;
+  font-weight: 300;
+  text-align: center;
+  padding-top: 1.25rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.boxed-list {
+  display: flex;
+  margin: 0;
+  justify-content: center;
+}
+
+.boxed-list li {
+  text-transform: uppercase;
+  border-left: 0.25rem solid #5BACC3;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  text-align: center;
+  vertical-align: middle;
+}/*# sourceMappingURL=menu.css.map */
