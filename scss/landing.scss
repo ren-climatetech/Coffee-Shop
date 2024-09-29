@@ -164,7 +164,7 @@
     background-color: $primary;
     position:absolute;
     top:0.5rem;
-    left:.5rem; 
+    left:0.5rem; 
 }
 
 .wearedifferent__banner{
@@ -226,6 +226,19 @@
     padding-bottom: $padding;
 }
 
+.wearedifferent__background:hover .image__animation {
+    animation: spin 2s infinite linear;
+}
+    @keyframes spin {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+}
+
+
 .discountheader {
     padding: 10rem;
     background-color: #FFF;
@@ -239,24 +252,31 @@
     color: #FFF;
     padding: $padding;
     margin:auto;
+    transition-duration: infinite;
+    transition-delay: 1s;
+    animation: colorChange 2s infinite alternate;
 }
+
+    @keyframes colorChange {
+        0% {
+            background-color: #393939;
+        }
+        100% {
+            background-color: $primary;
+        }
+    }
 
 .discountheader__text--style {
     font-weight: 600;
 }
+
 .contact__header {
     background-color: #FFF0ED;
     display: flex;
     flex-direction:row;
     justify-content: space-between;
     padding-left:10rem;
-}
-
-.contact__header::before{
-    content: url('/assets/logos/coffee-beans-logo-and-footer.svg');
-    width: 7.5rem;
-    height: 7.5rem;
-    opacity: 25%;
+    position: relative;
 }
 
 .contact__box{
@@ -279,4 +299,24 @@
     height:4rem;
 
 }
+.contact__logo--1{
+    width: 7.5rem;
+    height: 7.5rem;
+    opacity: 25%;
+    display:flex;
+    position: absolute;
+    overflow: hidden;
+    left:-2rem;
+    top:1rem;
+}
 
+.contact__logo--2{
+    width: 7.5rem;
+    height: 7.5rem;
+    opacity: 25%;
+    display:flex;
+    position: absolute;
+    overflow: hidden;
+    right:-2rem;
+    bottom:1rem;
+}
